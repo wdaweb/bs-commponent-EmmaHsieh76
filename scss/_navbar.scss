@@ -1,0 +1,48 @@
+#navbar {
+  --bs-navbar-hover-color: #f0ae35;
+  --bs-navbar-color: #333;
+  line-height: 2rem;
+
+  .navbar-toggler {
+    // 無效
+    color: #2b2c2f !important;
+    border: none !important;
+  }
+
+  button:focus {
+    box-shadow: none;
+  }
+
+  .navbar-brand {
+    width: 80%;
+    text-align: left;
+    font-family: 'Grand Hotel';
+    font-size: 3rem;
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    // color: #323333;
+    font-size: 1rem;
+
+    img {
+      height: 28px;
+      width: 28px;
+    }
+    
+    a{
+      padding-right: 10px;
+      padding-left: 1rem;
+    }
+  }
+
+  @include lg {
+    line-height: 5rem;
+
+    .navbar-brand {
+      width: 20%;
+      text-align: center;
+    }
+  }
+}

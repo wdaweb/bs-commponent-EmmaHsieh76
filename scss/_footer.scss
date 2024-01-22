@@ -1,0 +1,65 @@
+#footer {
+  width: 100vw;
+  height: 50vh;
+  background: #23201e;
+  color: #fff;
+  font-family: 'Lato';
+
+  .font-1 {
+    font-size: 45px;
+  }
+
+  .font-2 {
+    font-size: 28px;
+  }
+
+  .text {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  p {
+    color: #9b9b9b;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #9b9b9b;
+    display: inline-block;
+    &:hover {
+      color: #f9b129;
+    }
+  }
+  li {
+    &:not(:last-child)::after {
+      content: '/';
+      padding: 0 12px;
+      color: #9b9b9b;
+    }
+  }
+
+  .btn {
+    --bs-btn-color: #fff;
+    --bs-btn-border-radius: 35px;
+    --bs-btn-border-width: none;
+    font-size: 16px;
+    --bs-btn-padding-x: 28px;
+    --bs-btn-padding-y: 10px;
+  }
+
+  input {
+    height: 44px;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 35px;
+    font-size: 16px;
+  }
+
+  @include lg {
+    height: 30vh;
+    .font-1 {
+      font-size: 2rem;
+    }
+  }
+}

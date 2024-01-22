@@ -1,0 +1,26 @@
+#icon {
+  width: 100vw;
+  .card {
+    font-family: 'Lato';
+  }
+  .card-img-top {
+    width: 20%;
+  }
+
+  .hr {
+    border: 3px solid #f9b129;
+    width: 20%;
+    height: 10%;
+    background: #f9b129;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: #9b9b9b;
+  }
+}

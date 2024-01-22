@@ -1,0 +1,16 @@
+#map{
+  width: 100vw;
+  iframe{
+    width: 100%;
+    height: 30vh;
+    // 消除幽靈空白
+    vertical-align: middle;
+  }
+  
+  @include md{
+    iframe{
+      width: 100%;
+      height: 50vh;
+    }
+  }
+}

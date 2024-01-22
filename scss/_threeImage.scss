@@ -1,0 +1,90 @@
+#threeImage {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .container-wide {
+    // margin-right: auto;
+    // margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    :hover {
+      color: #f9b129;
+    }
+
+    h3 {
+      font-family: 'Changa One', cursive;
+      font-weight: 400;
+      line-height: 1.5;
+      display: block;
+      font-style: italic;
+    }
+    p {
+      display: block;
+      font-family: 'Lato';
+      font-size: 1.5rem;
+      line-height: 23px;
+      width: 100%;
+    }
+  }
+
+  .thumbnail-variant-3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .thumbnail-variant-3::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.35);
+    bottom: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .caption {
+    position: absolute;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+
+  @include md {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .container-wide {
+      min-width: 750px;
+    }
+
+    h3 {
+      line-height: 1 !important;
+    }
+
+    .caption {
+      padding-bottom: 0px;
+    }
+  }
+
+  @include lg {
+    .container-wide {
+      min-width: 970px;
+    }
+    a {
+      align-items: center;
+    }
+  }
+
+  @include xl {
+    .container-wide {
+      min-width: 1200px;
+    }
+  }
+}

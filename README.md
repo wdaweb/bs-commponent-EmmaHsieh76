@@ -1,1 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/C_yB551Y)
+# 使用套件
+
+## - 套件名稱:輪播(swiper)
+
+- 套件網址:https://swiperjs.com/
+- 使用區塊:id='swiper'
+
+## - 套件名稱:動畫效果(animate)
+
+- 套件網址:https://animate.style/
+- 使用區塊:id='swiper'
+
+## - 套件名稱:燈箱(lightbox)
+
+- 套件網址:https://dimsemenov.com/plugins/magnific-popup/
+- 使用區塊:id='burger'
+
+## - 套件名稱:滑動視差(jarallax)
+
+- 套件網址:https://github.com/nk-o/jarallax
+- 使用區塊:id='jarallax'
+
+## - 套件名稱:GSAP
+
+- 套件網址:https://gsap.com/
+- 使用區塊:ID='threeImage'、id="icon"
